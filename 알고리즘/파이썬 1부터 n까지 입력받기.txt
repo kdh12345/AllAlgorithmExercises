@@ -1,0 +1,8 @@
+C++
+
+vector<long long> v(n+1);
+for(int i=1;i<=n;i++)
+    cin>>v[i];
+-----------------------
+Python3
+cardPrice = [0]+list(map(int, input().split()))

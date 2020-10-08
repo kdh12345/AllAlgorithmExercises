@@ -1,0 +1,16 @@
+ tmp1=int(word[:idx+1])
+        tmp2=int(word[idx+1:])
+        w1=tmp1+tmp2
+        go1=int(word[:idx+2])
+        go2=int(word[idx+2:])
+        w2=go1+go2
+        if w1>w2:
+            word=str(w2)
+            times+=1
+        if w1<w2:
+            word=str(w1)
+            times+=1
+        idx+=1
+        if len(word)==1:
+            ans=int(word)
+            break
